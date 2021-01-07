@@ -45,9 +45,9 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 app.use('/public', express.static('public'));
  
-// app.get('/index.html', function (req, res) {
-//    res.sendFile( __dirname + "/" + "index.html" );
-// })
+app.get('/index.html', function (req, res) {
+   res.sendFile( __dirname + "/" + "index.html" );
+})
 
 app.get('/download.html', function (req, res) {
    res.sendFile( __dirname + "/" + "download.html" );
@@ -64,12 +64,12 @@ app.post('/process_post', urlencodedParser, function (req, res) {
 	params.project_name = response.first_name;
 	params.project_code = response.last_name;
 	changeJson(1,params);
-	// res.sendFile(__dirname+"/"+"public"+"/"+"demo.docx");
+	res.sendFile(__dirname+"/"+"public"+"/"+"public.rar");
 	// res.sendFile(__dirname+"/"+"public"+"/"+"test.docx");
 	// res.end(JSON.stringify('response'));
 })
 
-var server = app.listen(8082, function () {
+var server = app.listen(8081, function () {
  
   var host = server.address().address
   var port = server.address().port

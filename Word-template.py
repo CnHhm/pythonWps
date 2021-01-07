@@ -33,6 +33,6 @@ def replace_text(doc, old_text, new_text):
 # 从文件创建文档对象
 document = Document('./表格/0.摘要.docx');
 #查找替换
-replace_text(document, '[FJNPLYZZZB2020022]', 'FJNPLYZZZB2020023')
+replace_text(document, '[FJNPLYZZZB2020022]', 'FJNPLYZZZB2020025')
 # 保存文档
 document.save('demo.docx');

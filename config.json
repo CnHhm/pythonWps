@@ -1,0 +1,28 @@
+{
+    "data": 
+    [
+        {
+        "id": 1, 
+        "project_name_old": "[项目名称]",
+                "name_old": "[名称]",
+        "project_code_old": "[项目编号]",
+        "project_date_old": "[开标日期]",
+        "project_time_old": "[开标时间]",
+        "project_date_month_old": "[开标日期-月]",
+        "project_position1_old": "[开标地点]",
+        "project_position2_old": "[评标地点]",
+        "project_object_old": "[招标物品]",
+
+        "project_name_new": "2021年度西门子电器配件采购项目",
+                "name_new": "2021年度西门子电器配件采购",
+        "project_code_new": "9C398EDE",
+        "project_date_new": "2020年01月05日",
+        "project_time_new": "2021年01月05日   上午9：00正",
+        "project_date_month_new": "2020年01月",
+        "project_position1_new": "314",
+        "project_position2_new": "411",
+        "project_object_new": "香蕉"
+        }
+    ], 
+    "total": 1
+}

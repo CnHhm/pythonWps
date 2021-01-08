@@ -1,9 +1,5 @@
-import os
-import tkinter
+# web.py
+import sys
 
-#!/usr/bin/python3
- 
-import tkinter
-top = tkinter.Tk()
-# 进入消息循环
-top.mainloop()
+print('web')
+print('aaa')

@@ -103,6 +103,7 @@ project_position2_old = get_json_keyValue('project_position2_old')
 project_object_old = get_json_keyValue('project_object_old')
 project_time_old = get_json_keyValue('project_time_old')
 name_old = get_json_keyValue('name_old')
+project_date_month_old = get_json_keyValue('project_date_month_old')
 
 project_name_new = get_json_keyValue('project_name_new')
 project_code_new = get_json_keyValue('project_code_new')
@@ -112,6 +113,7 @@ project_position2_new = get_json_keyValue('project_position2_new')
 project_object_new = get_json_keyValue('project_object_new')
 project_time_new = get_json_keyValue('project_time_new')
 name_new = get_json_keyValue('name_new')
+project_date_month_new = get_json_keyValue('project_date_month_new')
 
 
 print("将 "+str(project_name_old)+" 替换为 "+str(project_name_new))
